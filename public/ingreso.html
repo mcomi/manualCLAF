@@ -35,11 +35,11 @@
                             <ul class="widget widget-menu unstyled">
                                 <li><a href="../index.html">Primeros Pasos
                                 </a></li>
-                                <li><a href="public/preregistro.html">Pre registro </a>
+                                <li><a href="preregistro.html">Pre registro </a>
                                 </li>
-                                <li class="active"><a href="public/ingreso.html">Registro de Ingresos </a>
+                                <li class="active"><a href="ingreso.html">Registro de Ingresos </a>
                                 </li>
-                                <li><a href="public/busqueda.html">Búsqueda </a>
+                                <li><a href="busqueda.html">Búsqueda </a>
                                 </li>
                             </ul>
                             <!--/.widget-nav-->
@@ -106,7 +106,7 @@
                                     <p>Una vez que un usuario ingresa será redireccionado a su página principal. Para este caso verán que la pantalla principal sólo tiene dos opciones: <strong>Pre registro</strong> y <strong>Búsqueda</strong>. Además tenemos un enlace para poder acceder a la lista de pre registros guardados para poder editar posteriormente a su registro.</p>
                                     <p>La siguiente figura muestra el enlace que debemos acceder para realizar el pre registro.</p>
                                     <div class="align-center">
-                                        <img src="public/images/ligaPreregistro.jpg">
+                                        <img src="images/ligaPreregistro.jpg">
                                     </div>
                                     <br>
                                     <p>Una vez que demos click en la liga se mostrará el formulario de pre registro. Este formulario está separado en una serie de pasos que debemos seguir para realizar el registro. Cada paso tienen un mínimo de campos requeridos que debemos llenar para poder pasar al siguiente. Estos campos están marcados con un asterisco <strong>*</strong> para poder identificarlos. </p>
@@ -124,32 +124,32 @@
 									<ol>
 										<li>Buscando el título del material a ingresar en el catálogo de títulos de la base de datos. Éste catálogo se alimenta de todos los nuevos títulos que se agregan en cada registro realizado. Esta opción cuenta con una búqueda dinámica, es decir que cada vez que tecleamos una letra se mostrará una lista con los títulos existentes. Además del título se admite la busqueda por realizador. Vemos un ejemplo en la siguiente figura.</li>
 										<div class="align-center">
-                                        	<img src="public/images/busquedaCatalogoTitulos.jpg">
+                                        	<img src="images/busquedaCatalogoTitulos.jpg">
                                     	</div><br>
                                     	<li>Agregando un nuevo título. Una vez que capturemos el título y le demos agregar, de inmediato nos mostrará el formulario para capturar las características del título y de la copia asociadas al título tal cómo lo veremos en la siguiente figura.</li>
                                     	<div class="align-center">
-                                        	<img src="public/images/escribaTituloNuevo.jpg">
+                                        	<img src="images/escribaTituloNuevo.jpg">
                                     	</div>
                                     	
                                     	<div class="align-center">
-                                        	<img src="public/images/nuevoTitulo.jpg">
+                                        	<img src="images/nuevoTitulo.jpg">
                                     	</div><br>
                                     	<li id="busquedaBUDA">Agregando títulos de registros que se dieron de baja en BUDA. Está opción permitirá que sea más rápida la captura de un registro que se ha dado de baja en BUDA para reingresar por CLAF. El formulario se completará automáticamente con la información del título y las características de la copia que coincidan con los campos del formulario. Esto no quiere decir que la información sea correcta, se tendrá que revisar porque habrán casos en que se tendrá que editar directamente algún campo que no coincida. Por ejemplo en el caso de que tuvieramos en BUDA un material de 35 mm, el texto de captura podría traer algún error como espacios o letras de más por errores de captura (35mm, 35 mmm, 35m). Para evitar estos errores CLAF sólo admite valores dentro de un catálogo dependiendo del campo, por lo que errores cómo los ejemplos no se podrán capturar automáticamente en los formularios y tendremos que marcarlo. Para este caso en particular tendremos una ayuda, un botón que nos permitirá ver la información que contenía esta copia en BUDA para que en caso de no visualizar la captura automática podamos elegir la opción correcta. Las siguientes figuras nos muestra un ejemplo.</li>
                                     	<div class="align-center">
-                                        	<img src="public/images/buscaBajasBuda.jpg">
+                                        	<img src="images/buscaBajasBuda.jpg">
                                     	</div>
                                     	<div class="align-center">
-                                        	<img src="public/images/infoBuda.jpg">
+                                        	<img src="images/infoBuda.jpg">
                                     	</div>
                                     	<div class="align-center">
-                                        	<img src="public/images/comparaBuda.jpg">
+                                        	<img src="images/comparaBuda.jpg">
                                     	</div>
 									</ol>
 									<h4 id="titulos">Características del Título</h4>
 									<p>Por cada título nuevo que agreguemos, se pueden capturar las características asociadas al título. Éstas no son obligatorias a excepción del año. Si el año no se conoce se deberá capturar el número 0 para que el sistema nos permita realizar el registro. </p>
 									<p>Es importante que tengamos cuidado con la captura en este punto con la finalidad de mantener un catálogo lo más limpio posible, el sistema registra un título único comparando con el año de producción. Es decir, si tenemos un "Titulo Uno" que se produjo en el año 2000 y en otro registro capturamos "Titulo 1" con año 2000, estaremos creando dos títulos diferentes que se refieren al mismo. Esto generaría que la información pierda su integridad. Es <strong>IMPORTANTE </strong>que siempre se consulte el catálogo para verificar si el título que queremos ingresar <strong>YA EXISTE</strong>. </p>
 									<div class="align-center">
-                                    	<img src="public/images/caracteristicasTitulo.jpg">
+                                    	<img src="images/caracteristicasTitulo.jpg">
                                 	</div><br>
 									<h4 id="copias">Características de las Copias</h4>
 									<p>Cuando hablamos de las copias estamos hablando del contenido físico que se asocia con un título. A diferencia de BUDA, en CLAF podremos tener un registro más detallado y confiable del material que se ingresa a Bóvedas. A partir de un título podremos conocer los diferentes materiales o copias que se resgurdan en las bóvedas.</p>
@@ -157,15 +157,15 @@
 									<p>La captura de todas las características físicas se apoyan en catálogos que podrán ir creciendo de acuerdo al manejo de materiales dentro de la Filmoteca. Éstos catálogos cómo lo mencionamos en la <a href="#busquedaBUDA">búsqueda de bajas en BUDA</a> tienen la finalidad de mantener la integridad y confiabilidad de la información, o en otras palabras, minimizar los errores de captura que pueden llegar a ocurrir.</p>
 									<p>Cómo vemos en la figura los campos obligatorios tienen un <strong>asterisco *</strong> . Si éstos no son capturados no podremos terminar el registro.</p>
 									<div class="align-center">
-                                    	<img src="public/images/catalogosCopias.jpg">
+                                    	<img src="images/catalogosCopias.jpg">
                                 	</div>
                                 	<div class="align-center">
-                                    	<img src="public/images/errorSoporte.jpg">
+                                    	<img src="images/errorSoporte.jpg">
                                 	</div><br>
                                 	<h4 id="resumen">Resumen del Pre registro</h4>
                                 	<p>El último paso del Pre registro es exclusivamente accesible una vez que se registró correctamente toda la información mínima para realizar un ingreso. Es una sección de ayuda para revisar en resumen que toda la información capturada es correcta. De no ser así podremos regresar a los pasos 1 y 2 para corregir. De cualquier forma hasta que no se lleve a cabo el Ingreso en el área de Bóvedas, podremos editar la información accediendo al Folio que nos muestra en el resumen. La <a href="#edita">siguiente sección</a> muestra cómo acceder a la edición de registros.</p>
                                 	<div class="align-center">
-                                    	<img src="public/images/resumenPre.jpg">
+                                    	<img src="images/resumenPre.jpg">
                                 	</div>
                                 </div>
                             </div>
@@ -181,24 +181,24 @@
                                     <ol>
                                     	<li>Editar un pre registro guardado. Esto permite que la captura pueda hacerse en diferentes sesiones, existe la posibilidad de que tengamos registros con muchos títulos y podemos guardar nuestro avance para continuar en otro momento, tal vez para ir revisando materiales y capturar su información hasta terminar con el total de materiales. </li>
                                     	<div class="align-center">
-	                                        <img src="public/images/guardarAvance.jpg">
+	                                        <img src="images/guardarAvance.jpg">
 	                                    </div><br>
 	                                    <li>Editar pre registros terminados. Puede suceder que no se alcancé a detectar algún error en la información de captura y el área de Bóvedas lo detecte una vez que procede a hacer el ingreso. En este momento puede comunicar al área de Taller para que realice la actualización necesaria en la información.</li>
                                     </ol>
                                     <p>En cualquiera de los casos, el usuario debe acceder desde el enlace que se muestra en la página de inicio. </p>
                                     <div class="align-center">
-                                        <img src="public/images/verGuardados.jpg">
+                                        <img src="images/verGuardados.jpg">
                                     </div>
                                     <br>
                                     <p>La lista que se muestra a continuación permite diferenciar el estatus de los registros. <strong>Guardado</strong> para aquellos pre registros aún no terminados y <strong>Terminado</strong> para los que ya han sido entregados a Bóvedas pero aún se pueden editar. Una vez que se seleccione la edición de un registro nos mostrará las mismas pantallas del pre registro con la información que capturamos anteriormente. </p>
                                     <div class="align-center">
-                                        <img src="public/images/listaGuardados.jpg">
-                                        <img src="public/images/editaFolio.jpg">
+                                        <img src="images/listaGuardados.jpg">
+                                        <img src="images/editaFolio.jpg">
                                     </div>
                                     <br>
                                 </div>
                             </div>
-                            <!--/.module-->public/
+                            <!--/.module-->
                             <div class="module">
                                 <div id="imprime" class="module-head">
                                     <h3>Impresión de Acuse</h3>
@@ -207,7 +207,7 @@
                                     <p>La impresión de Acuses de cada pre registro es opcional pero apoyará el proceso de Capacitación y pruebas del sistema con la finalidad de que los usuarios puedan comprobar la confiabilidad del sistema en el manejo de la información.</p> 
                                     <p>En el paso donde llegamos al <a href="#resumen"> Resumen</a> tendremos la opción para imprimir al dar click en el botón que encontrará en la parte superior de la página.</p>
                                     <div class="align-center">
-                                        <img src="public/images/imprimirResumenPre.jpg">
+                                        <img src="images/imprimirResumenPre.jpg">
                                     </div>
                                     <br>
                                     <p>El acuse resultante se presentará junto con todos los materiales en el área de Bóvedas para que el personal que reciba los materiales pueda verificar que tipo de material se le está entregando y que el número de contenedores sea correcto.</p>
@@ -228,12 +228,12 @@
                 <b class="copyright">&copy; 2015 CoNTI, DGAC </b>
             </div>
         </div>
-        <script src="public/scripts/jquery-1.9.1.min.js" type="text/javascript"></script>
-        <script src="public/scripts/jquery-ui-1.10.1.custom.min.js" type="text/javascript"></script>
-        <script src="public/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
-        <script src="public/scripts/flot/jquery.flot.js" type="text/javascript"></script>
-        <script src="public/scripts/flot/jquery.flot.resize.js" type="text/javascript"></script>
-        <script src="public/scripts/datatables/jquery.dataTables.js" type="text/javascript"></script>
-        <script src="public/scripts/common.js" type="text/javascript"></script>
+        <script src="scripts/jquery-1.9.1.min.js" type="text/javascript"></script>
+        <script src="scripts/jquery-ui-1.10.1.custom.min.js" type="text/javascript"></script>
+        <script src="bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="scripts/flot/jquery.flot.js" type="text/javascript"></script>
+        <script src="scripts/flot/jquery.flot.resize.js" type="text/javascript"></script>
+        <script src="scripts/datatables/jquery.dataTables.js" type="text/javascript"></script>
+        <script src="scripts/common.js" type="text/javascript"></script>
       
     </body>
